@@ -755,6 +755,231 @@
           />
         </template>
       </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideCheck
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideGithub
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideCompass
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideFlame
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideFingerprint
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideFishSymbol
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideEyeOff
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideCopy
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideChevronDown
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideExpand
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideFrame
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideGauge
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideKeyboard
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideLoaderPinwheel
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideLanguages
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideLink
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideSmile
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideTerminal
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideTimer
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideTrendingUp
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideTrendingDown
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideWind
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideUpload
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucideX
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
+      <AnimatedIconButton>
+        <template #default="{ ref, controlled }">
+          <LucidePlay
+            :ref="ref"
+            :controlled="controlled"
+            :class="primaryColor"
+          />
+        </template>
+      </AnimatedIconButton>
     </div>
   </UContainer>
 </template>
