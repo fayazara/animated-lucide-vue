@@ -140,7 +140,7 @@
         <template #default="{ ref, controlled, compname }">
           <LucideSlidersHorizontal
             :ref="ref"
-            :compname="compname('SliderHorizontal')"
+            :compname="compname('SlidersHorizontal')"
             :controlled="controlled"
             :class="primaryColor"
           />
@@ -710,7 +710,7 @@
         <template #default="{ ref, controlled, compname }">
           <LucideDribbble
             :ref="ref"
-            :compname="compname('Dribble')"
+            :compname="compname('Dribbble')"
             :controlled="controlled"
             :class="primaryColor"
           />
@@ -796,16 +796,7 @@
           />
         </template>
       </AnimatedIconButton>
-      <AnimatedIconButton>
-        <template #default="{ ref, controlled, compname }">
-          <LucideEarth
-            :ref="ref"
-            :compname="compname('Earth')"
-            :controlled="controlled"
-            :class="primaryColor"
-          />
-        </template>
-      </AnimatedIconButton>
+
       <AnimatedIconButton>
         <template #default="{ ref, controlled, compname }">
           <LucideWorkflow
