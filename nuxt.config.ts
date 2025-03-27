@@ -3,18 +3,25 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: [
-    '@nuxt/ui',
-    '@nuxt/eslint',
-    '@nuxt/content',
-    '@nuxt/scripts',
-    'motion-v/nuxt'
+    "@nuxt/ui",
+    "@nuxt/eslint",
+    "@nuxt/content",
+    "@nuxt/scripts",
+    "motion-v/nuxt",
   ],
 
-  css: ['~/assets/css/main.css'],
-
-  future: {
-    compatibilityVersion: 4
+  css: ["~/assets/css/main.css"],
+  vite: {
+    vue: {
+      features: {
+        propsDestructure: true,
+      },
+    },
   },
 
-  compatibilityDate: '2024-11-27'
-})
+  future: {
+    compatibilityVersion: 4,
+  },
+
+  compatibilityDate: "2024-11-27",
+});
