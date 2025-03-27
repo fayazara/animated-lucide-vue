@@ -19,10 +19,13 @@
     "@nuxt/ui": "^3.0.0",
     "@unhead/vue": "^2.0.0-rc.8",
     "motion-v": "^0.13.1",
-    "nuxt": "^3.16.1"
+    "nuxt": "^3.16.1",
+    "prismjs": "^1.30.0"
   },
   "devDependencies": {
+    "@iconify-json/ph": "^1.2.2",
     "@nuxt/eslint": "^1.2.0",
+    "@types/prismjs": "^1.26.5",
     "eslint": "^9.22.0",
     "typescript": "^5.8.2"
   },
